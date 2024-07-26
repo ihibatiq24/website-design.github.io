@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family:sans-serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(245, 236, 236);
+
+}
+.About Us{
+    width: 100%;
+}
+.About Us h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(77, 6, 6);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+.About Us h1::after{
+    content:"";
+    height: 5px;
+    width: 200px;background-color: rgb(192, 87, 104);
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+.wrapper{
+    padding: 0px 60px;
+    margin: 60px auto;
+
+}
+.content{
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+}
+.content h3{
+    color:blue;
+    letter-spacing: 1px;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+
+
+}
+.content .button{
+    margin-left: 40px;
+}
+.content .button a{
+    color: whitesmoke;
+    background-color:rgb(23, 73, 23);
+    border: 1px solid black;
+    padding: 10px 35px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.image-selection{
+    width: 40%;
+    float: right;
+    padding: 0px 30px;
+
+}
+.image-selection img{
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightblue;
+    }
+}
